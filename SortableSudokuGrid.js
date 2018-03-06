@@ -5,10 +5,7 @@
  * Copyright (c) 2016 react-native-component <moonsunfall@aliyun.com>
  */
 
-import React, {
-    PropTypes,
-    Component,
-} from 'react'
+import React, { Component } from 'react'
 import {
     View,
     StyleSheet,
@@ -16,6 +13,7 @@ import {
     Dimensions,
     Animated,
 } from 'react-native'
+import PropTypes from 'prop-types'
 
 import SortableCell from './SortableCell'
 import Utils from './Utils'
